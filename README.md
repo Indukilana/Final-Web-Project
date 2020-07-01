@@ -1,3 +1,3 @@
 # Final-Web-Project
 
-TO create a full functioning website for a Hotel
+To create a full functioning website for a Hotel
