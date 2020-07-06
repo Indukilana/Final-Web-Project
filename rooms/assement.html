@@ -1,0 +1,201 @@
+<html>
+<head>
+  <link rel="stylesheet" href="assement.css" type="text/css">
+
+</head>
+<body>
+
+    <!-- scroll to top button function calling -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+
+  <div id="navdiv"><div id="buttondiv"><button>About Us</button><button>Contact Us</button><button>Rooms</button><button>Hotel Resavations</button><button>Registration</button></div></div>
+
+<!--sidshow-->
+
+<img src="pic7.jpg" style="width:1500; height:370;">
+
+
+  <h1 class="h1">Rooms & Suites</h1>
+  <p class="p">Offering striking views of the Indian Ocean, Beira Lake and the city beyond, our 500 guest rooms and suites, and 41 serviced apartments are tastefully furnished to complement the urban-oceanside location and are among the largest in Colombo.
+  </p>
+  <table>
+    <!-- First row -->
+    <tr>
+    <td>
+      <div>
+          <img src="pic1.jpg" >
+          <h2>Deluxe Lake View Room</h2>
+          <ul>
+            <li>Each room offers 42 sqm / 452 sqf of luxury.</li>
+            <li>Memorable views of the lake and city.</li>
+          </ul>
+        </br></br>
+          <button id="bookbutton">Book Now</button>
+      </div>
+    </td>
+    <td>
+      <div>
+          <img src="pic2.jpg" >
+          <h2>Deluxe Ocean View Room</h2>
+          <ul>
+            <li>Each room offers 42 sqm / 452 sqf of luxury.</li>
+            <li>Memorable views of the lake and city.</li>
+          </ul>
+        </br></br>
+          <button id="bookbutton">Book Now</button>
+      </div>
+    </td>
+    <td>
+      <div>
+          <img src="pic3.jpg">
+          <h2>Premier Balcony Room</h2>
+          <ul>
+            <li>Each room offers 42 sqm / 452 sqf of luxury.</li>
+            <li>Memorable views of the lake and city.</li>
+          </ul>
+        </br></br>
+          <button id="bookbutton">Book Now</button>
+      </div>
+    </td>
+  </tr>
+    <!-- second row-->
+  <tr>
+      <td>
+        <div>
+            <img src="pic4.jpg">
+            <h2>Premier Ocean view Room</h2>
+            <ul>
+              <li>Each room offers 42 sqm / 452 sqf of luxury.</li>
+              <li>Memorable views of the lake and city.</li>
+            </ul>
+          </br></br>
+            <button id="bookbutton">Book Now</button>
+        </div>
+      </td>
+      <td>
+        <div>
+        <img src="pic5.jpg">
+        <h2>Horizon Club lake View Room</h2>
+        <ul>
+          <li>Each room offers 42 sqm / 452 sqf of luxury.</li>
+          <li>Memorable views of the lake and city.</li>
+        </ul>
+      </br></br>
+        <button id="bookbutton">Book Now</button>
+        </div>
+      </td>
+      <td>
+        <div>
+          <img src="pic6.jpg">
+          <h2>Horizon Club Ocean View</h2>
+          <ul>
+            <li>Each room offers 42 sqm / 452 sqf of luxury.</li>
+            <li>Memorable views of the lake and city.</li>
+          </ul>
+        </br></br>
+          <button id="bookbutton">Book Now</button>
+        </div>
+      </td>
+
+  <!-- third row-->
+      <tr>
+      <td>
+        <div>
+            <img src="pic1.jpg" >
+            <h2>Deluxe Lake View Room</h2>
+            <ul>
+              <li>Each room offers 42 sqm / 452 sqf of luxury.</li>
+              <li>Memorable views of the lake and city.</li>
+            </ul>
+          </br></br>
+            <button id="bookbutton">Book Now</button>
+        </div>
+      </td>
+      <td>
+        <div>
+            <img src="pic2.jpg" >
+            <h2>Deluxe Ocean View Room</h2>
+            <ul>
+              <li>Each room offers 42 sqm / 452 sqf of luxury.</li>
+              <li>Memorable views of the lake and city.</li>
+            </ul>
+          </br></br>
+            <button id="bookbutton">Book Now</button>
+        </div>
+      </td>
+      <td>
+        <div>
+            <img src="pic3.jpg">
+            <h2>Premier Balcony Room</h2>
+            <ul>
+              <li>Each room offers 42 sqm / 452 sqf of luxury.</li>
+              <li>Memorable views of the lake and city.</li>
+            </ul>
+          </br></br>
+            <button id="bookbutton">Book Now</button>
+        </div>
+      </td>
+    </tr>
+
+  </tr>
+</table>
+
+
+
+
+<div id="bottomdiv" >
+  <table border="0" class="bottomtable" >
+    <tr>
+      <td colspan="2" class="bottomtd" style="padding-top:30;font-family:Microsoft Sans Serif;font-size:18;">Unlock Possibilities</td>
+
+    </tr>
+    <tr>
+      <td  colspan="2" class="bottomtd" style="font-family:Microsoft Sans Serif;font-size:14;">Enhance the way you travel with our mobile app
+</td>
+
+    <tr>
+        <td rowspan="2" class="bottomtd"><img src="qr.png" style="height:90; width:90; margin-top:8;"></td>
+          <td class="bottomtd"><img src="googleplay.png" style="height:40; width:100; margin-top:8; border-radius: 10%;"></td>
+    </tr>
+    <tr>
+
+          <td class="bottomtd"><img src="apple.jpg" style="height:40; width:100;border-radius: 10%;"></td>
+    </tr>
+</table>
+</div>
+
+
+
+
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>

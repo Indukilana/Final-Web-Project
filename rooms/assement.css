@@ -1,0 +1,112 @@
+body{
+background-color: #2b2b2b;
+}
+div{
+  background-color: black;
+  color: white;
+  width: 350;
+  height: 450;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  transition: 1s;
+}
+h2{
+  text-align: center;
+  font-family: Microsoft Sans Serif;
+}
+ul{
+  color: #999999;
+  font-family: Microsoft Sans Serif;
+}
+table{
+  margin-left: 120;
+}
+td{
+  padding: 30;
+}
+img{
+  height:220;
+  width:350;
+}
+div:hover{
+    box-shadow: 0px 20px 20px #4a4949;
+}
+h1{
+  color: white;
+  margin-left: 150;
+  font-family:arial;
+}
+p{
+    margin-left: 150;
+    margin-right: 160;
+    color: #999999;
+    font-family: arial;
+}
+
+#navdiv{
+  width: 1500;
+  height: 50;
+}
+#buttondiv{
+  height: 50;
+  width:1150;
+  box-shadow: none;
+  margin-left: 340;
+}
+button{
+  height: 40;
+  width: 170;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-left: 10;
+  margin-top: 5;
+  border-radius: 20px;
+  transition: 0.5s;
+  font-size: 15;
+}
+
+#myBtn {
+  width: 60;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 55px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+#bottomdiv{
+  width: 1500;
+  height: 250;
+  margin-bottom: none;
+  }
+
+#myBtn:hover {
+box-shadow: 0px 0px 20px #4a4949;
+}
+button:hover{
+  background-color:#489cf0;
+  border-radius: 20px;
+  font-size: 16;
+}
+
+#bookbutton{
+  margin-left: 200;
+  width: 130;
+}
+
+table.bottomtable{
+  margin-left: 1050;
+  color: white;
+}
+td.bottomtd{
+  padding: 2;
+}
