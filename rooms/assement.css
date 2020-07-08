@@ -45,6 +45,9 @@ p{
 #navdiv{
   width: 1500;
   height: 50;
+  position: fixed;
+  top:0;
+  width: 99%;
 }
 #buttondiv{
   height: 50;
