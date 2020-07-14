@@ -1,0 +1,186 @@
+
+body{
+ background-color:  #2b2b2b;
+}
+
+
+
+
+
+#navdiv{
+  width: 100%;
+  height: 50;
+  background-color: black;
+}
+#buttondiv{
+  height: 50;
+  width:1150;
+  box-shadow: none;
+  margin-left: 190;
+}
+button{
+  height: 40;
+  width: 170;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-left: 10;
+  margin-top: 5;
+  border-radius: 20px;
+  transition: 0.5s;
+  font-size: 15;
+}
+button:hover{
+  background-color:#489cf0;
+  border-radius: 20px;
+  font-size: 16;
+}
+
+#middletext{
+  height: 120;
+  width: 1380;
+  background-color: none;
+  margin-left: 50;
+  color: white;
+
+}
+
+#block1{
+
+  background-color: black;
+  color: white;
+  width: 1450S;
+  height: 350;
+  margin-top: none;
+  margin-left: 20;
+  box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  transition: 0.5s;
+}
+
+#blockbuttonright{
+  margin-left: 1250;
+  margin-top: -20;
+}
+
+#blockbuttonleft{
+  margin-left: none;
+  margin-top: -20;
+}
+
+img.up{
+  width: 1500;
+  height: 370;
+} 
+
+ img.blockimg{
+  width: 750;
+  height: 350;
+ }
+
+ #block2{
+
+  background-color: black;
+  color: white;
+  width: 1450;
+  height: 350;
+  margin-top: 30;
+  margin-left: 20;
+  box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  transition: 0.5s;
+ }
+
+#block3{
+  background-color: black;
+  color: white;
+  width: 1450;
+  height: 350;
+  margin-top: 20;
+  margin-left: 20;
+  box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  transition: 0.5s;
+}
+
+#block4{
+  background-color: black;
+  color: white;
+  width: 1450;
+  height: 350;
+  margin-top: 20;
+  margin-left: 20;
+  box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  transition: 0.5s;
+}
+
+#block1:hover{
+  box-shadow: 0px 20px 20px #4a4949;
+}
+
+#block2:hover{
+  box-shadow: 0px 20px 20px #4a4949;
+}
+
+#block3:hover{
+  box-shadow: 0px 20px 20px #4a4949;
+}
+
+#block4:hover{
+  box-shadow: 0px 20px 20px #4a4949;
+}
+
+#bottomdiv{
+  width: 100%;
+  height: 50%;
+  margin-bottom: none;
+  margin-top: 20;
+  background-color: black;
+  }
+
+  table.bottomtable{
+  margin-left: 1050;
+  color: white;
+}
+td.bottomtd{
+  padding: 2;
+}
+#inblocktext1{
+
+  background-color: black;
+  width:600;
+  height: 300;
+  margin-left:800;
+  margin-top: -350;
+  
+}
+
+
+#inblocktext2{
+
+  background-color: black;
+  width:600;
+  height: 300;
+  margin-left:20;
+  margin-top: -350;
+  
+}
+
+#myBtn {
+  width: 60;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 55px;
+  z-index: 99;
+  font-size: 18px;
+  border-color: white ;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+#myBtn:hover {
+box-shadow: 0px 0px 20px #4a4949;
+}
+  
