@@ -14,9 +14,9 @@ body{
 }
 #buttondiv{
   height: 50;
-  width:1150;
+  width:100%;
   box-shadow: none;
-  margin-left: 190;
+  margin-left: 30;
 }
 button{
   height: 40;
@@ -37,8 +37,8 @@ button:hover{
 }
 
 #middletext{
-  height: 120;
-  width: 1380;
+  height: 70;
+  width: 96%;
   background-color: none;
   margin-left: 50;
   color: white;
@@ -49,10 +49,10 @@ button:hover{
 
   background-color: black;
   color: white;
-  width: 1450S;
+  width: 99%;
   height: 350;
   margin-top: none;
-  margin-left: 20;
+  margin-left: 5;
   box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   transition: 0.5s;
 }
@@ -68,12 +68,12 @@ button:hover{
 }
 
 img.up{
-  width: 1500;
+  width: 100%;
   height: 370;
 } 
 
  img.blockimg{
-  width: 750;
+  width: 47.5%;
   height: 350;
  }
 
@@ -81,10 +81,10 @@ img.up{
 
   background-color: black;
   color: white;
-  width: 1450;
+  width:99% ;
   height: 350;
   margin-top: 30;
-  margin-left: 20;
+  margin-left: 5;
   box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   transition: 0.5s;
  }
@@ -92,10 +92,10 @@ img.up{
 #block3{
   background-color: black;
   color: white;
-  width: 1450;
+  width: 99%;
   height: 350;
   margin-top: 20;
-  margin-left: 20;
+  margin-left: 5;
   box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   transition: 0.5s;
 }
@@ -103,10 +103,10 @@ img.up{
 #block4{
   background-color: black;
   color: white;
-  width: 1450;
+  width: 99%;
   height: 350;
   margin-top: 20;
-  margin-left: 20;
+  margin-left: 5;
   box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   transition: 0.5s;
 }
@@ -145,9 +145,9 @@ td.bottomtd{
 #inblocktext1{
 
   background-color: black;
-  width:600;
+  width:50%;
   height: 300;
-  margin-left:800;
+  margin-left:650;
   margin-top: -350;
   
 }
@@ -155,8 +155,8 @@ td.bottomtd{
 
 #inblocktext2{
 
-  background-color: black;
-  width:600;
+  background-color: none;
+  width:54.1%;
   height: 300;
   margin-left:20;
   margin-top: -350;

@@ -1,6 +1,7 @@
 
 body{
  background-color:  #2b2b2b;
+ background-image: url("back.jpg");
 }
 
 
@@ -11,6 +12,8 @@ body{
   width: 100%;
   height: 50;
   background-color: black;
+  margin-top: -10;
+  margin-left: 10;
 }
 #buttondiv{
   height: 50;
@@ -37,8 +40,8 @@ button:hover{
 }
 
 #topic{
-   font-size: 50px;
-   margin-left: 42%;
+   font-size: 60px;
+   margin-left: 35%;
    margin-top: 3%;
    color: white;
 }
@@ -46,7 +49,7 @@ button:hover{
 #slogan {
   font-size: 20px;
   color: white;
-  margin-top: 26;
+  margin-top: 0;
   margin-left: 195;
 }
 
@@ -60,10 +63,17 @@ img.up{
 
 #details{
   width: 40%;
-  height: 80%;
-  background-color: black;
-  margin-top: 10;
-  margin-left: 60%;
+  height: 100%;
+  background-color: silver;
+  margin-top: 40;
+  margin-left: 33%;
+  opacity: 65%;
+}
+
+#contactus{
+  margin-left: 35.8%;
+  margin-top: 0;
+  font-size:30px;
 }
 
 
