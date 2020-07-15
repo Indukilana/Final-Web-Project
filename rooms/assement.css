@@ -136,13 +136,7 @@ td.bottomtd{
   height: 13%;
   margin-left: 10%;
 }
-#checkintext{
-  margin-left: 6%;
-  font-family: arial;
-  color: white;
-  margin-right: 1%;
 
-}
 #insta{
   width: 89%;
   height: 24%;
@@ -171,4 +165,20 @@ td.bottomtd{
 #twitter:hover{
   width: 103%;
   height: 28%;
+}
+#checkintable{
+  width: 85%;
+  height:100%;
+  margin-left: none;
+}
+#checkintd{
+  padding: none;
+  color: white;
+  padding-right:0;
+}
+#ckeck1{
+box-shadow: none;
+}
+#check1:hover{
+  box-shadow: none;
 }
