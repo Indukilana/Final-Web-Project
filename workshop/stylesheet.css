@@ -36,12 +36,22 @@ button:hover{
   font-size: 16;
 }
 
-#middletext{
-  height: 70;
-  width: 96%;
+#middletexttopic{
+  height: 30;
+  width: 10%;
   background-color: none;
-  margin-left: 50;
+  margin-left: 45%;
   color: white;
+
+}
+
+#middletextslogan{
+  height: 60;
+  font-weight: 50;
+  background-color: none;
+  font-size: 100%;
+  color: white;
+  margin-top: none;
 
 }
 
@@ -49,10 +59,10 @@ button:hover{
 
   background-color: black;
   color: white;
-  width: 99%;
+  width: 88%;
   height: 350;
   margin-top: none;
-  margin-left: 5;
+  margin-left: 85;
   box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   transition: 0.5s;
 }
@@ -81,10 +91,10 @@ img.up{
 
   background-color: black;
   color: white;
-  width:99% ;
+  width:88% ;
   height: 350;
   margin-top: 30;
-  margin-left: 5;
+  margin-left: 85;
   box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   transition: 0.5s;
  }
@@ -92,10 +102,10 @@ img.up{
 #block3{
   background-color: black;
   color: white;
-  width: 99%;
+  width: 88%;
   height: 350;
   margin-top: 20;
-  margin-left: 5;
+  margin-left: 85;
   box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   transition: 0.5s;
 }
@@ -103,10 +113,10 @@ img.up{
 #block4{
   background-color: black;
   color: white;
-  width: 99%;
+  width: 88%;
   height: 350;
   margin-top: 20;
-  margin-left: 5;
+  margin-left: 85;
   box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   transition: 0.5s;
 }
@@ -144,10 +154,10 @@ td.bottomtd{
 }
 #inblocktext1{
 
-  background-color: black;
-  width:50%;
+  background-color: none;
+  width:45%;
   height: 300;
-  margin-left:650;
+  margin-left:600;
   margin-top: -350;
   
 }
@@ -156,9 +166,9 @@ td.bottomtd{
 #inblocktext2{
 
   background-color: none;
-  width:54.1%;
+  width:45%;
   height: 300;
-  margin-left:20;
+  margin-left:40;
   margin-top: -350;
   
 }
