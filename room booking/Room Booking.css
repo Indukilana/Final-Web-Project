@@ -11,9 +11,9 @@ body{
 }
 #buttondiv{
   height: 50;
-  width:1150;
+  width:61%;
   box-shadow: none;
-  margin-left: 340;
+  margin-left: 20%;
 }
 #button{
   height: 40;
@@ -41,7 +41,7 @@ body{
   background-color: black;
   color: white;
   width: 37%;
-  height: 900;
+  height: 980;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   transition: 1s;
   float: left;
@@ -57,7 +57,7 @@ body{
   background-color: black;
   color: white;
   width: 39%;
-  height: 920;
+  height: 1000;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   transition: 1s;
   margin-left: 51%;
@@ -83,7 +83,7 @@ td{
   font-size: 25;
 }
 table.bottomtable{
-  margin-left: 1050;
+  margin-left: 70%;
   color: white;
 }
 td.bottomtd{
@@ -120,6 +120,22 @@ td.bottomtd{
 #dayhover:hover{
   background-color:#489cf0;
 }
+#bookinput{
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  font-size: 20;
+}
+#booktxt{
+  font-size: 20;
+}
+
+
+
+
+
+
+
 
 
 

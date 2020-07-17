@@ -49,7 +49,6 @@ p{
   height: 7%;
   position: fixed;
   top:0;
-  width: 99%;
 }
 #buttondiv{
   height: 7%;
@@ -141,7 +140,7 @@ td.bottomtd{
   width: 89%;
   height: 24%;
   transition: 0.5s;
-  margin-left: 5px;
+  margin-left: 10%;
 }
 #insta:hover{
   width: 106%;
@@ -159,7 +158,7 @@ td.bottomtd{
 #twitter{
   width: 85%;
   height: 24%;
-  margin-left: 5px;
+  margin-left: 10%;
   transition: 0.5s;
 }
 #twitter:hover{
