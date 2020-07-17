@@ -48,11 +48,13 @@ button:hover{
 
 #middletextslogan{
   height: 60;
+  width: 88%;
   font-weight: 50;
-  background-color: none;
-  font-size: 100%;
+  background-color:none;
+  font-size: 120%;
   color: white;
-  margin-top: none;
+  margin-top: -10;
+  margin-left: 110;
 
 }
 
@@ -62,21 +64,12 @@ button:hover{
   color: white;
   width: 88%;
   height: 350;
-  margin-top: none;
+  margin-top: -30;
   margin-left: 85;
   box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   transition: 0.5s;
 }
 
-#blockbuttonright{
-  margin-left: 1250;
-  margin-top: -20;
-}
-
-#blockbuttonleft{
-  margin-left: none;
-  margin-top: -20;
-}
 
 img.up{
   width: 100%;
@@ -159,7 +152,8 @@ td.bottomtd{
   width:45%;
   height: 300;
   margin-left:600;
-  margin-top: -350;
+  margin-top: -340;
+  font-size: 20;
   
 }
 
@@ -170,7 +164,8 @@ td.bottomtd{
   width:45%;
   height: 300;
   margin-left:40;
-  margin-top: -350;
+  margin-top: -340;
+  font-size: 20;
   
 }
 
