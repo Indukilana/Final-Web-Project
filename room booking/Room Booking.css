@@ -11,9 +11,9 @@ body{
 }
 #buttondiv{
   height: 50;
-  width:61%;
+  width:85%;
   box-shadow: none;
-  margin-left: 20%;
+  margin-left: 8%;
 }
 #button{
   height: 40;
@@ -84,7 +84,7 @@ td{
 }
 table.bottomtable{
   margin-left: 70%;
-  color: white;
+  color: #999999;
 }
 td.bottomtd{
   padding: 2;
@@ -132,7 +132,49 @@ td.bottomtd{
 
 
 
-
+#insta{
+  width: 89%;
+  height: 24%;
+  transition: 0.5s;
+  margin-left: 10%;
+}
+#insta:hover{
+  width: 106%;
+  height: 30%;
+}
+#face{
+  width: 105%;
+  height: 30%;
+  transition: 0.5s;
+}
+#face:hover{
+  width: 130%;
+  height: 36%;
+}
+#twitter{
+  width: 85%;
+  height: 24%;
+  margin-left: 10%;
+  transition: 0.5s;
+}
+#twitter:hover{
+  width: 103%;
+  height: 28%;
+}
+#socialdiv{
+  width: 4%;
+  height: 30%;
+  float: left;
+  margin-top: 2.5%;
+  border-radius: 8px;
+  margin-left: 2.5%;
+  position: fixed;
+  background-color:transparent;
+  box-shadow: none;
+}
+#socialdiv:hover{
+  box-shadow: none;
+}
 
 
 
