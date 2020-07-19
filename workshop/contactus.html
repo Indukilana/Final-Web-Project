@@ -22,11 +22,44 @@
          
             
 
-<div id="details">
-  <br>
 
-    <div id="contactus"><u><b>Contact Us</b></u></div>
-</div>
+
+<form onsubmit="checkform()" name="form">
+   <fieldset id="boder">
+     <legend style="color: white;">Sign Up</legend>
+   <table >
+     <tr>
+       <td style="color:white;">First Name</td>
+       <td style="color:white;">Last Name</td>
+     </tr>
+     <tr>
+       <td><input type="text" name="fname" class="short" style="border-radius:10px;"></td>
+       <td><input type="text" name="lname" class="short"style="border-radius:10px;"></td>
+     </tr>
+     <tr>
+       <td colspan="2" style="color:white;">E-mail</td>
+     </tr>
+     <tr>
+       <td colspan="2"><input type="text" name="email" class="longtext" style="border-radius:10px;"></td>
+     </tr>
+     <tr>
+       <td style="color:white;">Password</td>
+       <td style="color:white;">Confirm Password</td>
+     </tr>
+     <tr>
+       <td><input type="password" name="password" class="short" style="border-radius:10px;"></td>
+       <td><input type="password" name="cpassword" class="short"style="border-radius:10px;"></td>
+     </tr>
+     <tr>
+       <td colspan="2" style="padding-top:5%;"><input type="submit" value="Sign Up" class="signup"style="border-radius:10px;"></td>
+     </tr>
+     <tr>
+       <td style="padding-top:5%;color:white;">Already have a account? &nbsp Login in</td>
+    </tr>
+   </table>
+ </fieldset>
+ </form>
+
 
 
 
