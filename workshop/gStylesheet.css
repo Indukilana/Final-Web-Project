@@ -65,23 +65,25 @@ button:hover{
   font-size: 50;
   margin-top: 0;
   margin-left: 60;
+   font-family: sans-serif;
 }
 
-#middlename{
+#middlecontact{
   font-size: 35;
-  margin-left: 38%;
+  margin-left: 45%;
   color: white;
+   font-family: sans-serif;
 }
 
 #contacttable{
-  margin-left: 26.5%;
+  margin-left: 27.5%;
   margin-top: 40;
 }
 
 .tabletext{
-  color: white;
-  font-size: 23;
-  
+  color: silver;
+  font-size: 21;
+   font-family: sans-serif;
 }
 
 
