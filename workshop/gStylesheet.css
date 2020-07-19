@@ -68,14 +68,20 @@ button:hover{
 }
 
 #middlename{
-  font-size: 30;
+  font-size: 35;
   margin-left: 38%;
   color: white;
 }
 
-#contact{
-  margin-left: 30%;
+#contacttable{
+  margin-left: 26.5%;
   margin-top: 40;
+}
+
+.tabletext{
+  color: white;
+  font-size: 23;
+  
 }
 
 
