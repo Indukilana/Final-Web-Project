@@ -52,18 +52,21 @@ button:hover{
 
 #details{
   background-color: black;
-  height: 550;
+  height: 600;
   width: 90%;
-  margin-left: 75;
+  margin-left: 0;
   margin-top: 35;
   opacity: 95%;
 
 }
 
+#boderset{
+  width: 70%;
+}
 #downslogan{
   color: white;
   font-size: 50;
-  margin-top: 0;
+  margin-top: 20;
   margin-left: 60;
    font-family: sans-serif;
 }
@@ -77,7 +80,7 @@ button:hover{
 
 #contacttable{
   margin-left: 27.5%;
-  margin-top: 40;
+  margin-top: 20;
 }
 
 .tabletext{
