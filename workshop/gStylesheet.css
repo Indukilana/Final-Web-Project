@@ -62,24 +62,26 @@ button:hover{
 
 #boderset{
   width: 70%;
+  height: 570;
+  margin-right: 60;
 }
 #downslogan{
   color: white;
   font-size: 50;
   margin-top: 20;
-  margin-left: 60;
+  margin-left: 45 ;
    font-family: sans-serif;
 }
 
 #middlecontact{
   font-size: 35;
-  margin-left: 45%;
+  margin-left: 42%;
   color: white;
    font-family: sans-serif;
 }
 
 #contacttable{
-  margin-left: 27.5%;
+  margin-left: 18%;
   margin-top: 20;
 }
 
@@ -130,8 +132,12 @@ td.bottomtd{
 }
 .short{
   height: 35px;
-  width: 243px;
+  width: 400px;
   border: none;
+}
+
+#messagebox{
+  height: 85px;
 }
 .short:hover{
   border: solid;
