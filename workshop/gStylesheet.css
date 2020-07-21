@@ -1,0 +1,161 @@
+
+body{
+ background-color:  #2b2b2b;
+ background-image: url("back.jpg");
+}
+
+#navdiv{
+  width: 100%;
+  height: 50;
+  background-color: black;
+  margin-top: -10;
+  margin-left: 10;
+}
+#buttondiv{
+  height: 60;
+  width:100%;
+  box-shadow: none;
+  margin-left: 130;
+}
+button{
+  height: 40;
+  width: 170;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-left: 10;
+  margin-top: 5;
+  border-radius: 20px;
+  transition: 0.5s;
+  font-size: 15;
+}
+button:hover{
+  background-color:#489cf0;
+  border-radius: 20px;
+  font-size: 16;
+}
+
+#topic{
+   font-size: 60px;
+   margin-left: 35%;
+   margin-top: 3%;
+   color: white;
+}
+
+#slogan {
+  font-size: 20px;
+  color: white;
+  margin-top: 10;
+  margin-left: 195;
+}
+
+
+#details{
+  background-color: black;
+  height: 600;
+  width: 90%;
+  margin-left: 0;
+  margin-top: 35;
+  opacity: 95%;
+
+}
+
+#boderset{
+  width: 70%;
+  height: 570;
+  margin-right: 60;
+}
+#downslogan{
+  color: white;
+  font-size: 50;
+  margin-top: 20;
+  margin-left: 45 ;
+   font-family: sans-serif;
+}
+
+#middlecontact{
+  font-size: 35;
+  margin-left: 42%;
+  color: white;
+   font-family: sans-serif;
+}
+
+#contacttable{
+  margin-left: 18%;
+  margin-top: 20;
+}
+
+.tabletext{
+  color: silver;
+  font-size: 21;
+   font-family: sans-serif;
+}
+
+
+
+#bottomdiv{
+  width: 100%;
+  height: 50%;
+  margin-bottom: none;
+  margin-top: 20;
+  background-color: black;
+  }
+
+  table.bottomtable{
+  margin-left: 1050;
+  color: white;
+}
+td.bottomtd{
+  padding: 2;
+}
+
+.longtext{
+  width: 100%;
+  height: 35px;
+  border: none;
+}
+.longtext:hover{
+  border: solid;
+}
+.signup{
+  width: 100%;
+  height: 35px;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  border-color: white;
+}
+.signup:hover{
+  background-color: white;
+  color: black;
+  border:solid;
+}
+.short{
+  height: 35px;
+  width: 400px;
+  border: none;
+}
+
+#messagebox{
+  height: 85px;
+}
+.short:hover{
+  border: solid;
+}
+tr,td{
+  padding: 5px;
+
+}
+
+legend{
+  margin-left: 42%;
+  font-size: 18;
+  color: white;
+}
+fieldset{
+  width:33%;
+  margin-left: 32%;
+  margin-top: 5%;
+  background-color: black;
+  opacity: 0.8;
+}
