@@ -137,12 +137,11 @@ td.bottomtd{
   padding: 2;
 }
 #bottomdiv{
-  width: 107.3%;
-  height: 50%;
+  width: 110h%;
+  height: 250;
   margin-bottom: none;
   background-color: black;
-  margin-right: none;
-  }
+}
 
   table.bottomtable{
   margin-left: 1050;
