@@ -94,11 +94,12 @@ button:hover{
 
 
 #bottomdiv{
-  width: 100%;
+  width: 107.3%;
   height: 50%;
   margin-bottom: none;
   margin-top: 20;
   background-color: black;
+  margin-right: none;
   }
 
   table.bottomtable{
