@@ -22,8 +22,30 @@ function checkTime(i) {
 
   </head>
   <body onload="startTime()">
-    <div id="navdiv"><div id="buttondiv"><button id="button">Home</button><button id="button">About Us</button><button id="button">Contact Us</button><button id="button">Rooms</button><button id="button">Gallery</button><button id="button">Services</button><button id="button">Registration</button></div></div>
-  </div>
+    <div id="navdiv">
+      <div id="buttondiv">
+        <a href="../Home page/Home page.html"><button id="button">Home</button></a>
+        <a href="../Home page/Home page.html"><button id="button">About Us</button></a>
+        <a href="../c_s/contactus.html"><button id="button">Contact Us</button></a>
+        <section class="dropdown">
+          <button id="button">Accommodation</button>
+            <section class="dropdown-content">
+            <a href="../rooms/rooms.html" style="text-align: center;">Rooms</a>
+            <a href="../rooms/rooms.html" style="text-align: center;">Suits</a>
+      
+            </section>
+          </section>
+        <a href="../c_s/Gallary.html"><button id="button">Gallery</button></a>
+        <button id="button">Services</button>
+        <section class="dropdown">
+          <button id="button">Registration</button>
+          <section class="dropdown-content">
+            <a href="../Sign up/login page.html" style="text-align: center;">Login</a>
+            <a href="../Sign up/sign up.html"style="text-align: center;">Sign up</a>
+          </section>
+        </section>
+      </div>
+    </div>
 
  <!-- top image-->
 <img src="pic2.jpg" style="width:100%;">
