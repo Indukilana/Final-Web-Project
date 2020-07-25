@@ -2,6 +2,7 @@
 body{
  background-color:  #2b2b2b;
  background-image: url("back.jpg");
+ background-size: cover;
 }
 
 #navdiv{
@@ -94,12 +95,13 @@ button:hover{
 
 
 #bottomdiv{
-  width: 107.3%;
+  width: 100%;
   height: 50%;
   margin-bottom: none;
   margin-top: 20;
   background-color: black;
   margin-right: none;
+
   }
 
   table.bottomtable{

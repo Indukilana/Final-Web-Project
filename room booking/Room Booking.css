@@ -13,7 +13,7 @@ body{
   height: 50;
   width:100%;
   box-shadow: none;
-  margin-left: 30;
+  margin-left: 7%;
 }
 #button{
   height: 40;
@@ -64,7 +64,7 @@ body{
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;} 
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 #h1top{
   color: white;
