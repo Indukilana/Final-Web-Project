@@ -2,11 +2,7 @@
 body{
  background-color:  #2b2b2b;
  background-image: url("back.jpg");
-<<<<<<< HEAD
  background-size: cover;
-=======
- width: auto;
->>>>>>> 3b50fdff2fc1a726f087f75d66ce8509fc1b2efa
 }
 
 #navdiv{
@@ -144,20 +140,12 @@ td.bottomtd{
 }
 #bottomdiv{
   width: 100%;
-<<<<<<< HEAD
   height: 50%;
-=======
-  height: 250;
->>>>>>> 3b50fdff2fc1a726f087f75d66ce8509fc1b2efa
   margin-bottom: none;
   background-color: black;
-<<<<<<< HEAD
   margin-right: none;
 
   }
-=======
-}
->>>>>>> 3b50fdff2fc1a726f087f75d66ce8509fc1b2efa
 
   table.bottomtable{
   margin-left: 70%;
