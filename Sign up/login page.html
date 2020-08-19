@@ -42,7 +42,6 @@
             </section>
           </section>
         <a href="../c_s/Gallary.html"><button id="button">Gallery</button></a>
-        <button id="button">Services</button>
         <section class="dropdown">
           <button id="button">Registration</button>
           <section class="dropdown-content">
