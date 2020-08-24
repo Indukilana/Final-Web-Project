@@ -53,17 +53,29 @@
       <div id="buttondiv">
         <a href="../index.html"><button id="button">Home</button></a>
         <a href="../index.html"><button id="button">About Us</button></a>
+<<<<<<< HEAD
         <a href="../c_s/contactus.php"><button id="button">Contact Us</button></a>
         <section class="dropdown">
           <button id="button">Accommodation</button>
             <section class="dropdown-content">
             <a href="../rooms/rooms.php" style="text-align: center;">Rooms</a>
             <a href="../rooms/rooms.php" style="text-align: center;">Suits</a>
+=======
+        <a href="../c_s/contactus.html"><button id="button">Contact Us</button></a>
+        <section class="dropdown">
+          <button id="button">Accommodation</button>
+            <section class="dropdown-content">
+            <a href="../rooms/rooms.html" style="text-align: center;">Rooms</a>
+            <a href="../rooms/rooms.html" style="text-align: center;">Suits</a>
+>>>>>>> 124602777cbbaa951e61e66e9919eb2ac5774674
       
             </section>
           </section>
         <a href="../c_s/Gallary.html"><button id="button">Gallery</button></a>
+<<<<<<< HEAD
+=======
         <button id="button">Services</button>
+>>>>>>> 124602777cbbaa951e61e66e9919eb2ac5774674
         <section class="dropdown">
           <button id="button">Registration</button>
           <section class="dropdown-content">
@@ -79,7 +91,11 @@
   <div id="socialdiv"><img src="insta.png" id="insta"></br><img src="face.png" id="face"></br><img src="Twitter.png" id="twitter"></div>
 
 
+<<<<<<< HEAD
  <form  action="signupqry.php" method="POST" onsubmit="checkform()" name="form">
+=======
+ <form  action="sign up.php" method="POST" onsubmit="checkform()" name="form">
+>>>>>>> 124602777cbbaa951e61e66e9919eb2ac5774674
    <fieldset>
      <legend>Sign Up</legend>
    <table class="center">
@@ -145,6 +161,42 @@
 
 
 
+<<<<<<< HEAD
 
+=======
+<?php 
+include '../dbcon.php';
+error_reporting(0);
+
+$fname = $_POST['fname'];
+$lname = $_POST['lname'];
+$email = $_POST['email'];
+$pswrd = $_POST['pswrd'];
+$pswrd = $_POST['cpswrd'];
+$submit = $_POST['submit'];
+
+
+
+if(isset($_POST['submit'])){
+
+
+    $sql = "INSERT INTO users (fname,lname, email, pswrd) VALUES ( '$fname', '$lname', '$email', '$pswrd' )";
+      
+ 
+    if ($conn->query($sql) === TRUE) {
+      echo "New record created successfully";
+    } else {
+      echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+}
+
+
+
+$conn->close();
+
+
+?>
+>>>>>>> 124602777cbbaa951e61e66e9919eb2ac5774674
 
 

@@ -19,12 +19,15 @@ if(isset($_POST['Sign Up'])){
  
     if ($conn->query($sql) === TRUE) {
       echo "New record created successfully";
+<<<<<<< HEAD
       echo $htmlHeader;
       while($stuff){
         echo $stuff;
       }
   
       echo "<script>window.location = '../Sign up/login page.php'</script>";
+=======
+>>>>>>> 124602777cbbaa951e61e66e9919eb2ac5774674
     } else {
       echo "Error: " . $sql . "<br>" . $conn->error;
     }

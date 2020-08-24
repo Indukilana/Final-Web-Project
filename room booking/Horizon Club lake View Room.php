@@ -1,6 +1,6 @@
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="Room Booking.css">
+      <link rel="stylesheet" type="text/css" href="Room Booking.css">
       <script>
 function startTime() {
   var today = new Date();
@@ -36,6 +36,7 @@ function checkTime(i) {
             </section>
           </section>
         <a href="../c_s/Gallary.html"><button id="button">Gallery</button></a>
+        <button id="button">Services</button>
         <section class="dropdown">
           <button id="button">Registration</button>
           <section class="dropdown-content">
@@ -47,11 +48,11 @@ function checkTime(i) {
     </div>
 
  <!-- top image-->
-<img src="pic1.jpg" style="width:100%;">
+<img src="pic5.jpg" style="width:100%;">
 
-<div id="socialdiv"><a href="https://www.instagram.com/?hl=en"><img src="insta.png" id="insta"></a></br><a href="https://www.facebook.com/"><img src="face.png" id="face"><a/><a href="https://twitter.com/explore"><img src="Twitter.png" id="twitter"></a></div>
+<div id="socialdiv"><a href="https://www.instagram.com/?hl=en"><img src="insta.png" id="insta"></a></br><a href="https://www.facebook.com/"><img src="face.png" id="face"><a/><a href="https://twitter.com/explore"><img src="twitter.png" id="twitter"></a></div>
 
-<h1 id="h1top">Executive Suite</h1>
+<h1 id="h1top"> Horizon Club Lake View Room</h1>
 <hr style="width:80%;">
 
 </br>
@@ -60,15 +61,15 @@ function checkTime(i) {
 
     <div id="info">
 
-        <h2>Tasteful interiors, lake panoramas</h2>
-        <p style="color:#999999;">Deluxe Lake View Rooms offer space and comfort with thoughtful contemporary design and local Sri Lankan touches. All rooms offer exceptional views over the Lake and the city beyond.</p>
+        <h2>Unique privileges and enhanced luxury</h2>
+        <p style="color:#999999;">The rooms offer space, comfort, thoughtful contemporary design and local Sri Lankan touches combined with additional Horizon Club privileges. All rooms provide exceptional views over the Beira Lake and the city beyond providing the choice for discerning guests who require extra attention and services.</p>
         <h2>Features</h2>
         <ul style="color:#999999;">
           <li>Each room offers 42 sqm / 452 sqf of luxury.</li>
-          <li>Memorable views of the lake and city.</li>
+          <li>Magnificent views of Beira Lake.</li>
           <li>Large, modern bathroom with walk-in shower and separate bathtub.</li>
           <li>Wi-Fi.</li>
-          <li>Bed with 300-thread-count lightweight duvet.</li>
+          <li>Access to the exclusive Horizon Club Lounge and its full range of privileges.</li>
         </ul>
         <h2>Amenities</h2>
         <h2>Bath & Personal Care</h2>
@@ -218,7 +219,7 @@ function checkTime(i) {
         <td style="color:#666666;">6</td>
       </tr>
     </table></br>
-    <p style="text-align:center;margin-left:3.5%; margin-right:3.5%; font-style:italic;">* please note that you can only book a room for one day through online.If you need more please contact us.</p>
+    <p style="text-align:center;margin-left:3.5%; margin-right:3.5%; font-style:italic;">* please note that you can only book a room for a one day through online.If you need more please contact us.</p>
    </br>
     <p style="text-align:center;margin-left:3%; margin-right:3%;">Check the availability and deside a date</p>
 
@@ -249,7 +250,7 @@ function checkTime(i) {
           
         </table>
       </br>
-      <input type="hidden" name="room" value="Executive Suite">
+      <input type="hidden" name="room" value="Horizon Club lake View Room">
       <input type="submit" name="submit" value="book" style="width:80;height:40;background-color:black;border:solid;border-color:white;color:white;border-radius:10px; margin-left:80%;">
       
         </form>

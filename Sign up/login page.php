@@ -36,13 +36,19 @@
         <section class="dropdown">
           <button id="button">Accommodation</button>
             <section class="dropdown-content">
+<<<<<<< HEAD
             <a href="../rooms/rooms.php" style="text-align: center;">Rooms</a>
             <a href="../rooms/rooms.php" style="text-align: center;">Suits</a>
+=======
+         
       
             </section>
           </section>
         <a href="../c_s/Gallary.html"><button id="button">Gallery</button></a>
+<<<<<<< HEAD
+=======
         <button id="button">Services</button>
+>>>>>>> 124602777cbbaa951e61e66e9919eb2ac5774674
         <section class="dropdown">
           <button id="button">Registration</button>
           <section class="dropdown-content">
@@ -58,7 +64,11 @@
   <div id="socialdiv"><img src="insta.png" id="insta"></br><img src="face.png" id="face"></br><img src="Twitter.png" id="twitter"></div>
 
 
+<<<<<<< HEAD
  <form onsubmit="checkform()" name="form" action="logincheck.php" >
+=======
+ <form onsubmit="checkform()" name="form">
+>>>>>>> 124602777cbbaa951e61e66e9919eb2ac5774674
    <fieldset>
      <legend>Login</legend>
    <table class="center">
@@ -73,7 +83,11 @@
        <td style="color:white;">Password</td>
      </tr>
      <tr>
+<<<<<<< HEAD
        <td><input type="password" name="pswrd" class="short" style="border-radius:10px;"></td>
+=======
+       <td><input type="password" name="password" class="short" style="border-radius:10px;"></td>
+>>>>>>> 124602777cbbaa951e61e66e9919eb2ac5774674
      </tr>
      <tr>
        <td colspan="2" style="padding-top:5%;"><input type="submit" name="submit" value="Login" class="signup"style="border-radius:10px;"></td>
@@ -113,7 +127,36 @@
 </body>
 
 
+<<<<<<< HEAD
 
+=======
+<?php
+include '../dbcon.php';
+
+$email = $_POST['email'];
+$pswrd = $_POST['pswrd'];
+$submit = $_POST['submit'];
+
+ 
+
+  $sql = "SELECT * from users where email='$email' && pswrd='$pswrd'";
+
+  $result = $conn->query($sql);
+
+  if ($result->num_rows > 0) {
+  
+   // header("Location: http://localhost/Final-Web-Project/rooms/rooms.html");
+
+
+  } else {
+    echo "0 results";
+  
+  $conn->close();
+}
+
+
+?>
+>>>>>>> 124602777cbbaa951e61e66e9919eb2ac5774674
 
 
 </html>
