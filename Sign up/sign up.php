@@ -53,12 +53,12 @@
       <div id="buttondiv">
         <a href="../index.html"><button id="button">Home</button></a>
         <a href="../index.html"><button id="button">About Us</button></a>
-        <a href="../c_s/contactus.html"><button id="button">Contact Us</button></a>
+        <a href="../c_s/contactus.php"><button id="button">Contact Us</button></a>
         <section class="dropdown">
           <button id="button">Accommodation</button>
             <section class="dropdown-content">
-            <a href="../rooms/rooms.html" style="text-align: center;">Rooms</a>
-            <a href="../rooms/rooms.html" style="text-align: center;">Suits</a>
+            <a href="../rooms/rooms.php" style="text-align: center;">Rooms</a>
+            <a href="../rooms/rooms.php" style="text-align: center;">Suits</a>
       
             </section>
           </section>
@@ -67,8 +67,8 @@
         <section class="dropdown">
           <button id="button">Registration</button>
           <section class="dropdown-content">
-            <a href="../Sign up/login page.html" style="text-align: center;">Login</a>
-            <a href="../Sign up/sign up.html"style="text-align: center;">Sign up</a>
+            <a href="../Sign up/login page.php" style="text-align: center;">Login</a>
+            <a href="../Sign up/sign up.php"style="text-align: center;">Sign up</a>
           </section>
         </section>
       </div>
@@ -79,7 +79,7 @@
   <div id="socialdiv"><img src="insta.png" id="insta"></br><img src="face.png" id="face"></br><img src="Twitter.png" id="twitter"></div>
 
 
- <form onsubmit="checkform()" name="form">
+ <form  action="signupqry.php" method="POST" onsubmit="checkform()" name="form">
    <fieldset>
      <legend>Sign Up</legend>
    <table class="center">
@@ -102,14 +102,14 @@
        <td style="color:white;">Confirm Password</td>
      </tr>
      <tr>
-       <td><input type="password" name="password" class="short" style="border-radius:10px;"></td>
-       <td><input type="password" name="cpassword" class="short"style="border-radius:10px;"></td>
+       <td><input type="password" name="pswrd" class="short" style="border-radius:10px;"></td>
+       <td><input type="password" name="cpswrd" class="short"style="border-radius:10px;"></td>
      </tr>
      <tr>
-       <td colspan="2" style="padding-top:5%;"><input type="submit" value="Sign Up" class="signup"style="border-radius:10px;"></td>
+       <td colspan="2" style="padding-top:5%;"><input type="submit" name="submit" value="Sign Up" class="signup"style="border-radius:10px;"></td>
      </tr>
      <tr>
-       <td style="padding-top:5%;color:white;">Already have a account? <a href="login page.html">Login</a></td>
+       <td style="padding-top:5%;color:white;">Already have a account? <a href="login page.php">Login</a></td>
     </tr>
    </table>
  </fieldset>
@@ -141,3 +141,10 @@
 
 </body>
 </html>
+
+
+
+
+
+
+

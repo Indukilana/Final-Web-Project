@@ -9,22 +9,21 @@
         <div id="buttondiv">
           <a href="../index.html"><button id="button">Home</button></a>
           <a href="../index.html"><button id="button">About Us</button></a>
-          <a href="../c_s/contactus.html"><button id="button">Contact Us</button></a>
+          <a href="../c_s/contactus.php"><button id="button">Contact Us</button></a>
           <section class="dropdown">
             <button id="button">Accommodation</button>
               <section class="dropdown-content">
-              <a href="../rooms/rooms.html" style="text-align: center;">Rooms</a>
-              <a href="../rooms/rooms.html" style="text-align: center;">Suits</a>
+              <a href="../rooms/rooms.php" style="text-align: center;">Rooms</a>
+              <a href="../rooms/rooms.php" style="text-align: center;">Suits</a>
         
               </section>
             </section>
           <a href="../c_s/Gallary.html"><button id="button">Gallery</button></a>
-          <button id="button">Services</button>
           <section class="dropdown">
             <button id="button">Registration</button>
             <section class="dropdown-content">
-              <a href="../Sign up/login page.html" style="text-align: center;">Login</a>
-              <a href="../Sign up/sign up.html"style="text-align: center;">Sign up</a>
+              <a href="../Sign up/login page.php" style="text-align: center;">Login</a>
+              <a href="../Sign up/sign up.php"style="text-align: center;">Sign up</a>
             </section>
           </section>
         </div>
@@ -103,20 +102,20 @@ tr></tr>
 </tr>
 </table>
 
-        </fieldset>
+</fieldset>
 
 
 
 
-<form onsubmit="checkform()" name="form">
+<form action="contactusqry.php" onsubmit="checkform()" method="POST" name="form1">
    <fieldset style="margin-top: 20" >
      <legend style="color: white;">Message us</legend>
    <table class="center" >
      <tr>
-       <td style="color:white;">Name</td>
+       <td style="color:white;" >Name</td>
       </tr>
      <tr>
-       <td><input type="text" name="fname" class="short" style="border-radius:10px;">
+       <td><input type="text" name="cname" class="short" style="border-radius:10px;">
        </td>
      </tr>
      <tr>
@@ -129,24 +128,24 @@ tr></tr>
        <td style="color:white;">Phone No.</td>
      </tr>
      <tr>
-       <td><input type="number" name="pnumber" class="short" style="border-radius:10px;"></td>
+       <td><input type="number" name="phone" class="short" style="border-radius:10px;"></td>
        <tr>
        <td style="color:white;">Subject</td>
       </tr>
      <tr>
-       <td><input type="text" name="subject" class="short" style="border-radius:10px;">
+       <td><input type="text" name="sub" class="short" style="border-radius:10px;">
        </td>
      </tr>
      <tr>
        <td style="color:white;">Message</td>
       </tr>
      <tr>
-       <td><input type="text" name="message" class="short" id="messagebox" style="border-radius:10px;">
+       <td><input type="text" name="mess" class="short" id="messagebox" style="border-radius:10px;">
        </td>
      </tr>
 
      <tr>
-       <td colspan="2" style="padding-top:5%;"><input type="submit" value="submit" class="signup"style="border-radius:10px;"></td>
+       <td colspan="2" style="padding-top:5%;"><input type="submit" name="submit" value="submit" class="signup"style="border-radius:10px;"></td>
      </tr>
 
    </table>
@@ -209,3 +208,6 @@ tr></tr>
 
 </body>
 </html>
+
+
+

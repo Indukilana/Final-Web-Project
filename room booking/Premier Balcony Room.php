@@ -1,6 +1,6 @@
 <html>
   <head>
-      <link rel="stylesheet" type="text/css" href="Room Booking.css">
+    <link rel="stylesheet" type="text/css" href="Room Booking.css">
       <script>
 function startTime() {
   var today = new Date();
@@ -22,39 +22,37 @@ function checkTime(i) {
 
   </head>
   <body onload="startTime()">
-    <div>
-      <div id="navdiv">
-        <div id="buttondiv">
-          <a href="../index.html"><button id="button">Home</button></a>
-          <a href="../index.html"><button id="button">About Us</button></a>
-          <a href="../c_s/contactus.html"><button id="button">Contact Us</button></a>
-          <section class="dropdown">
-            <button id="button">Accommodation</button>
-              <section class="dropdown-content">
-              <a href="../rooms/rooms.html" style="text-align: center;">Rooms</a>
-              <a href="../rooms/rooms.html" style="text-align: center;">Suits</a>
-        
-              </section>
-            </section>
-          <a href="../c_s/Gallary.html"><button id="button">Gallery</button></a>
-          <button id="button">Services</button>
-          <section class="dropdown">
-            <button id="button">Registration</button>
+    <div id="navdiv">
+      <div id="buttondiv">
+        <a href="../index.html"><button id="button">Home</button></a>
+        <a href="../index.html"><button id="button">About Us</button></a>
+        <a href="../c_s/contactus.php"><button id="button">Contact Us</button></a>
+        <section class="dropdown">
+          <button id="button">Accommodation</button>
             <section class="dropdown-content">
-              <a href="../Sign up/login page.html" style="text-align: center;">Login</a>
-              <a href="../Sign up/sign up.html"style="text-align: center;">Sign up</a>
+            <a href="../rooms/rooms.php" style="text-align: center;">Rooms</a>
+            <a href="../rooms/rooms.php" style="text-align: center;">Suits</a>
+      
             </section>
           </section>
-        </div>
+        <a href="../c_s/Gallary.html"><button id="button">Gallery</button></a>
+        <button id="button">Services</button>
+        <section class="dropdown">
+          <button id="button">Registration</button>
+          <section class="dropdown-content">
+            <a href="../Sign up/login page.php" style="text-align: center;">Login</a>
+            <a href="../Sign up/sign up.php"style="text-align: center;">Sign up</a>
+          </section>
+        </section>
       </div>
     </div>
 
  <!-- top image-->
-<img src="pic6.jpg" style="width:100%;">
+<img src="pic3.jpg" style="width:100%;">
 
-<div id="socialdiv"><a href="https://www.instagram.com/?hl=en"><img src="insta.png" id="insta"></a></br><a href="https://www.facebook.com/"><img src="face.png" id="face"><a/><a href="https://twitter.com/explore"><img src="twitter.png" id="twitter"></a></div>
+<div id="socialdiv"><a href="https://www.instagram.com/?hl=en"><img src="insta.png" id="insta"></a></br><a href="https://www.facebook.com/"><img src="face.png" id="face"><a/><a href="https://twitter.com/explore"><img src="Twitter.png" id="twitter"></a></div>
 
-<h1 id="h1top"> Horizon Club Ocean View Room</h1>
+<h1 id="h1top"> Premier Balcony Room</h1>
 <hr style="width:80%;">
 
 </br>
@@ -63,16 +61,15 @@ function checkTime(i) {
 
     <div id="info">
 
-        <h2>Extra privileges with resplendent views</h2>
-        <p style="color:#999999;">Indulge in the comfort and amenities of our Horizon Club Ocean View Rooms featuring panoramic views of the Indian Ocean, combined with additional Horizon Club privileges, provide the choice for discerning guests who require extra attention and services.</p>
+        <h2>Tasteful interiors, lake panoramas</h2>
+        <p style="color:#999999;">Deluxe Lake View Rooms offer space and comfort with thoughtful contemporary design and local Sri Lankan touches. All rooms offer exceptional views over the Lake and the city beyond.</p>
         <h2>Features</h2>
         <ul style="color:#999999;">
           <li>Each room offers 42 sqm / 452 sqf of luxury.</li>
-          <li>Panoramic views of the Indian Ocean.</li>
+          <li>Memorable views of the lake and city.</li>
           <li>Large, modern bathroom with walk-in shower and separate bathtub.</li>
           <li>Wi-Fi.</li>
-          <li>Signature grand bed with 300-thread count lightweight duvet.</li>
-          <li>Access to the exclusive Horizon Club Lounge and its full range of privileges.</li>
+          <li>Bed with 300-thread-count lightweight duvet.</li>
         </ul>
         <h2>Amenities</h2>
         <h2>Bath & Personal Care</h2>
@@ -222,64 +219,41 @@ function checkTime(i) {
         <td style="color:#666666;">6</td>
       </tr>
     </table></br>
-    <p style="text-align:center;margin-left:3.5%; margin-right:3.5%; font-style:italic;">* please note that you can only book a room for a one day through online.If you need more please contact us.</p>
+    <p style="text-align:center;margin-left:3.5%; margin-right:3.5%; font-style:italic;">* please note that you can only book a room for one day through online.If you need more please contact us.</p>
    </br>
     <p style="text-align:center;margin-left:3%; margin-right:3%;">Check the availability and deside a date</p>
 
 
-    <fprm>
-      <table border="0" style="margin:auto;">
-        <tr>
-          <td style="text-align:left;">
-
-      <div class="custom-select" style="width:120px; float:left;">
-    <select >
-      <option value="0">Date:</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-    </select>
-      </div>
-        </td>
+    <form action="bookingqry.php" method="POST" onsubmit="checkform()" name="form1">
+      
       </br>
-        <td style="text-align:left;">
-      <div class="custom-select" style="width:120px;float:left;">
-    <select >
-      <option value="0">Month:</option>
-      <option value="1">August</option>
-      </select>
-      </div>
-      </td>
-
-      <td  style="text-align:left;">
-      <div class="custom-select" style="width:120px;float:left;">
-    <select >
-      <option value="0" >Year:</option>
-      <option value="1">2020</option>
-    </select>
-      </div>
-      </td>
-    </tr>
-  </table>
-</br>
-  <table style="margin-left:3.5%;" border="0">
-    <tr>
-      <td style="color:white;text-align:left;" id="booktxt">Enter your name</td>
-      <td style="width:69.5%;padding-left:5%;"><input type="text" id="bookinput"></td>
-    </tr>
-    <tr>
-      <td style="color:white; text-align:left;" id="booktxt">Phone:</td>
-      <td style="width:69.5%;padding-left:5%;"><input type="text" id="bookinput"></td>
-    </tr>
-    <tr>
-      <td style="color:white;text-align:left;" id="booktxt">NIC</td>
-      <td style="width:69.5%;padding-left:5%;"><input type="text" id="bookinput"></td>
-    </tr>
-  </table>
-</br>
-<input type="submit" value="book" style="width:80;height:40;background-color:black;border:solid;border-color:white;color:white;border-radius:10px; margin-left:80%;">
-
-    </form>
+        <table style="margin-left:3.5%;" border="0">
+          <tr>
+            <td style="color:white;text-align:left;" id="booktxt">Enter your name</td>
+            <td style="width:69.5%;padding-left:5%;"><input type="text" name="name" id="bookinput"></td>
+          </tr>
+          <tr>
+            <td style="color:white; text-align:left;" id="booktxt">Phone:</td>
+            <td style="width:69.5%;padding-left:5%;"><input type="text" name="phone" id="bookinput"></td>
+          </tr>
+          <tr>
+            <td style="color:white;text-align:left;" id="booktxt">NIC</td>
+            <td style="width:69.5%;padding-left:5%;"><input type="text" name="nic" id="bookinput"></td>
+          </tr>
+          <tr>
+            <td style="color:white;text-align:left;" id="booktxt">
+              <label for="start">Check-In:</label>
+      
+            <td style="width:69.5%;padding-left:5%;"><input type="date" id="bookinput"  name="bdate"   min="2020-01-01" max="2023-12-31"></td>
+            </td>
+          </tr>
+          
+        </table>
+      </br>
+      <input type="hidden" name="room" value="Premier Balcony">
+      <input type="submit" name="submit" value="book" style="width:80;height:40;background-color:black;border:solid;border-color:white;color:white;border-radius:10px; margin-left:80%;">
+      
+        </form>
     </div>
 
 </br></br></br>

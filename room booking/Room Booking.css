@@ -275,3 +275,12 @@ td.bottomtd{
 .select-items div:hover, .same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
 }
+
+
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+  color: white;
+ }
+
+

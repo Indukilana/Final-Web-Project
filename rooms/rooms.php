@@ -13,12 +13,12 @@
       <div id="buttondiv">
         <a href="../index.html"><button id="button">Home</button></a>
         <a href="../index.html"><button id="button">About Us</button></a>
-        <a href="../c_s/contactus.html"><button id="button">Contact Us</button></a>
+        <a href="../c_s/contactus.php"><button id="button">Contact Us</button></a>
         <section class="dropdown">
           <button id="button">Accommodation</button>
             <section class="dropdown-content">
-            <a href="../rooms/rooms.html" style="text-align: center;">Rooms</a>
-            <a href="../rooms/rooms.html" style="text-align: center;">Suits</a>
+            <a href="../rooms/rooms.php" style="text-align: center;">Rooms</a>
+            <a href="../rooms/rooms.php" style="text-align: center;">Suits</a>
       
             </section>
           </section>
@@ -27,8 +27,8 @@
         <section class="dropdown">
           <button id="button">Registration</button>
           <section class="dropdown-content">
-            <a href="../Sign up/login page.html" style="text-align: center;">Login</a>
-            <a href="../Sign up/sign up.html"style="text-align: center;">Sign up</a>
+            <a href="../Sign up/login page.php" style="text-align: center;">Login</a>
+            <a href="../Sign up/sign up.php"style="text-align: center;">Sign up</a>
           </section>
         </section>
       </div>
@@ -70,7 +70,7 @@
             <li>Memorable views of the lake and city.</li>
           </ul>
         </br></br>
-          <a href="../room booking/Deluxe Lake view room.html"><button id="bookbutton">Book Now</button></a>
+          <a href="../room booking/Deluxe Lake view room.php"><button id="bookbutton">Book Now</button></a>
       </div>
     </td>
     <td>
@@ -82,7 +82,7 @@
             <li>Panoramic views of the Indian Ocean.</li>
           </ul>
         </br></br>
-        <a href="../room booking/Deluxe Ocean view room.html"><button id="bookbutton">Book Now</button></a>
+        <a href="../room booking/Deluxe Ocean view room.php"><button id="bookbutton">Book Now</button></a>
       </div>
     </td>
     <td>
@@ -94,7 +94,7 @@
             <li>Spacious balcony with magnificent views of the city and Lake.</li>
           </ul>
         </br></br>
-        <a href="../room booking/Premier Balcony Room.html"><button id="bookbutton">Book Now</button></a>
+        <a href="../room booking/Premier Balcony Room.php"><button id="bookbutton">Book Now</button></a>
       </div>
     </td>
   </tr>
@@ -109,7 +109,7 @@
               <li>Panoramic views of the Indian Ocean.</li>
             </ul>
           </br></br>
-          <a href="../room booking/Premier Ocean View Room.html"><button id="bookbutton">Book Now</button></a>
+          <a href="../room booking/Premier Ocean View Room.php"><button id="bookbutton">Book Now</button></a>
         </div>
       </td>
       <td>
@@ -121,7 +121,7 @@
           <li>Memorable views of the lake and city.</li>
         </ul>
       </br></br>
-      <a href="../room booking/Horizon Club lake View Room.html"><button id="bookbutton">Book Now</button></a>
+      <a href="../room booking/Horizon Club lake View Room.php"><button id="bookbutton">Book Now</button></a>
         </div>
       </td>
       <td>
@@ -133,7 +133,7 @@
             <li>Magnificent views of Lake..</li>
           </ul>
         </br></br>
-        <a href="../room booking/Horizon Club Ocean View Room.html"><button id="bookbutton">Book Now</button></a>
+        <a href="../room booking/Horizon Club Ocean View Room.php"><button id="bookbutton">Book Now</button></a>
         </div>
       </td>
 
@@ -148,7 +148,7 @@
               <li>Panoramic Indian Ocean and city views.</li>
             </ul>
           </br></br>
-          <a href="../room booking/Executive Suite.html"><button id="bookbutton">Book Now</button></a>
+          <a href="../room booking/Executive Suite.php"><button id="bookbutton">Book Now</button></a>
         </div>
       </td>
       <td>
@@ -160,7 +160,7 @@
               <li>Memorable views of the lake and city.</li>
             </ul>
           </br></br>
-          <a href="../room booking/Deluxe Suite.html"><button id="bookbutton">Book Now</button></a>
+          <a href="../room booking/Deluxe Suite.php"><button id="bookbutton">Book Now</button></a>
         </div>
       </td>
       <td>
@@ -172,7 +172,7 @@
               <li>Panoramic Indian Ocean and city views.</li>
             </ul>
           </br></br>
-          <a href="../room booking/Specialty Suite.html"><button id="bookbutton">Book Now</button></a>
+          <a href="../room booking/Specialty Suite.php"><button id="bookbutton">Book Now</button></a>
         </div>
       </td>
     </tr>

@@ -1,6 +1,6 @@
 <html>
   <head>
-      <link rel="stylesheet" type="text/css" href="Room Booking.css">
+    <link rel="stylesheet" type="text/css" href="Room Booking.css">
       <script>
 function startTime() {
   var today = new Date();
@@ -26,12 +26,12 @@ function checkTime(i) {
       <div id="buttondiv">
         <a href="../index.html"><button id="button">Home</button></a>
         <a href="../index.html"><button id="button">About Us</button></a>
-        <a href="../c_s/contactus.html"><button id="button">Contact Us</button></a>
+        <a href="../c_s/contactus.php"><button id="button">Contact Us</button></a>
         <section class="dropdown">
           <button id="button">Accommodation</button>
             <section class="dropdown-content">
-            <a href="../rooms/rooms.html" style="text-align: center;">Rooms</a>
-            <a href="../rooms/rooms.html" style="text-align: center;">Suits</a>
+            <a href="../rooms/rooms.php" style="text-align: center;">Rooms</a>
+            <a href="../rooms/rooms.php" style="text-align: center;">Suits</a>
       
             </section>
           </section>
@@ -40,19 +40,19 @@ function checkTime(i) {
         <section class="dropdown">
           <button id="button">Registration</button>
           <section class="dropdown-content">
-            <a href="../Sign up/login page.html" style="text-align: center;">Login</a>
-            <a href="../Sign up/sign up.html"style="text-align: center;">Sign up</a>
+            <a href="../Sign up/login page.php" style="text-align: center;">Login</a>
+            <a href="../Sign up/sign up.php"style="text-align: center;">Sign up</a>
           </section>
         </section>
       </div>
     </div>
 
  <!-- top image-->
-<img src="pic1.jpg" style="width:100%;">
+<img src="pic7.jpg" style="width:100%;">
 
 <div id="socialdiv"><a href="https://www.instagram.com/?hl=en"><img src="insta.png" id="insta"></a></br><a href="https://www.facebook.com/"><img src="face.png" id="face"><a/><a href="https://twitter.com/explore"><img src="Twitter.png" id="twitter"></a></div>
 
-<h1 id="h1top"> Deluxe lake view room</h1>
+<h1 id="h1top">Deluxe Suit</h1>
 <hr style="width:80%;">
 
 </br>
@@ -224,59 +224,36 @@ function checkTime(i) {
     <p style="text-align:center;margin-left:3%; margin-right:3%;">Check the availability and deside a date</p>
 
 
-    <form>
-      <table border="0" style="margin:auto;">
-        <tr>
-          <td style="text-align:left;">
-
-      <div class="custom-select" style="width:120px; float:left;">
-    <select >
-      <option value="0">Date:</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-    </select>
-      </div>
-        </td>
+    <form action="bookingqry.php" method="POST" onsubmit="checkform()" name="form1">
+      
       </br>
-        <td style="text-align:left;">
-      <div class="custom-select" style="width:120px;float:left;">
-    <select >
-      <option value="0">Month:</option>
-      <option value="1">August</option>
-      </select>
-      </div>
-      </td>
-
-      <td  style="text-align:left;">
-      <div class="custom-select" style="width:120px;float:left;">
-    <select >
-      <option value="0" >Year:</option>
-      <option value="1">2020</option>
-    </select>
-      </div>
-      </td>
-    </tr>
-  </table>
-</br>
-  <table style="margin-left:3.5%;" border="0">
-    <tr>
-      <td style="color:white;text-align:left;" id="booktxt">Enter your name</td>
-      <td style="width:69.5%;padding-left:5%;"><input type="text" id="bookinput"></td>
-    </tr>
-    <tr>
-      <td style="color:white; text-align:left;" id="booktxt">Phone:</td>
-      <td style="width:69.5%;padding-left:5%;"><input type="text" id="bookinput"></td>
-    </tr>
-    <tr>
-      <td style="color:white;text-align:left;" id="booktxt">NIC</td>
-      <td style="width:69.5%;padding-left:5%;"><input type="text" id="bookinput"></td>
-    </tr>
-  </table>
-</br>
-<input type="submit" value="book" style="width:80;height:40;background-color:black;border:solid;border-color:white;color:white;border-radius:10px; margin-left:80%;">
-
-    </form>
+        <table style="margin-left:3.5%;" border="0">
+          <tr>
+            <td style="color:white;text-align:left;" id="booktxt">Enter your name</td>
+            <td style="width:69.5%;padding-left:5%;"><input type="text" name="name" id="bookinput"></td>
+          </tr>
+          <tr>
+            <td style="color:white; text-align:left;" id="booktxt">Phone:</td>
+            <td style="width:69.5%;padding-left:5%;"><input type="text" name="phone" id="bookinput"></td>
+          </tr>
+          <tr>
+            <td style="color:white;text-align:left;" id="booktxt">NIC</td>
+            <td style="width:69.5%;padding-left:5%;"><input type="text" name="nic" id="bookinput"></td>
+          </tr>
+          <tr>
+            <td style="color:white;text-align:left;" id="booktxt">
+              <label for="start">Check-In:</label>
+      
+            <td style="width:69.5%;padding-left:5%;"><input type="date" id="bookinput"  name="bdate"   min="2020-01-01" max="2023-12-31"></td>
+            </td>
+          </tr>
+          
+        </table>
+      </br>
+      <input type="hidden" name="room" value="Deluxe Suite">
+      <input type="submit" name="submit" value="book" style="width:80;height:40;background-color:black;border:solid;border-color:white;color:white;border-radius:10px; margin-left:80%;">
+      
+        </form>
     </div>
 
 </br></br></br>

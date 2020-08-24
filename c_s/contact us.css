@@ -74,10 +74,11 @@ button:hover{
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 #topic{
-   font-size: 60px;
+   font-size: 40px;
    margin-left: 35%;
    margin-top: 3%;
    color: white;
+   font-family: 'Microsoft Sans Serif', cursive;
 }
 
 #slogan {
@@ -85,6 +86,9 @@ button:hover{
   color: white;
   margin-top: 10;
   margin-left: 195;
+  font-style: italic;
+  font-family: arial;
+  text-align: center;
 }
 
 
